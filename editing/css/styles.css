@@ -1,0 +1,444 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+
+/* Presentation Styles - Nor related to the plugin */
+
+body {
+    font-size: 12px;
+    font-family: Arial, Helevtica, Verdana, san-serif;
+    color: #333;
+    background: #f9f9f9;
+}
+
+#content {
+    max-width:960px;
+    margin: 0 auto;
+    text-align:left;
+    width: 100%;
+}
+
+#content h1{
+    text-align:center;	
+    font-family: 'Shadows Into Light', cursive;
+    font-size:55px;
+    text-shadow:1px 1px #fff;
+}
+.login-btns,.logout-btns
+{
+    margin-bottom:  15px;
+}
+#socialTimeline {
+    margin: 0 auto;	
+}
+.mn-cnt{
+    padding: 0px;
+}
+.mn-cnt img{
+    width: 100%;
+}
+.mn-cnt:hover 
+{
+    cursor: pointer;
+   
+}
+.mn-cnt:hover .test
+{
+    display: block !important;
+}
+
+.test-active
+{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.6);
+    color:#fff;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    top: 0px;
+    z-index: 2;
+}
+.test span.label
+{
+    position: absolute;
+    bottom: 0px;
+}
+/*-------------------------------*/
+.effects {
+  padding-left: 15px;
+}
+.effects .img {
+  position: relative;
+  float: left;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.effects .img:nth-child(n) {
+  margin-right: 5px;
+}
+.effects .img:first-child {
+  margin-left: -15px;
+}
+.effects .img:last-child {
+  margin-right: 0;
+}
+.effects .img img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+a.close-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
+}
+a.close-overlay.hidden {
+  display: none;
+}
+
+a.expand {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  width: 60px;
+  height: 60px;
+  border: solid 5px #fff;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 700;
+  font-size: 30px;
+  border-radius: 30px;
+}
+/* ============================================================
+  EFFECT 1 - SLIDE IN BOTTOM
+============================================================ */
+#effect-1 .overlay {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 0;
+}
+#effect-1 .overlay a.expand {
+  left: 0;
+  right: 0;
+  bottom: 50%;
+  margin: 0 auto -30px auto;
+}
+#effect-1 .img.hover .overlay {
+  height: 100%;
+}
+.part1,.part2{
+    width: 100%;
+    position: absolute;
+}
+.part1
+{
+    top: 0px;
+}
+.part2
+{
+    bottom: 0px;
+}
+.btn-social-bottom{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.box img{
+height:150px;
+}
+/*-----------------TOOL TIP----------------*/
+.tooltip{
+    position:absolute;
+    z-index:999;
+    left:-9999px;
+    background-color:orangered;
+    padding:5px;
+    border:1px solid orangered;
+    width:auto;
+}
+
+.tooltip p{
+    margin:0;
+    padding:0;
+    color:#fff;
+    background-color:orangered;
+    padding:2px 7px;
+    z-index: 999;
+}
+/*--------------------------END-----------------*/
+.mar-15,a.btn-social-icon{
+    margin-left: 15px;
+    margin-left: 15px;
+}
+ #spinner-modal .modal-dialog,
+    #spinner-modal .modal-content,
+    #spinner-modal .modal-body {
+        background: transparent;
+        color: rgba(255,255,255,1);
+        box-shadow: none;
+        border: none;
+    }
+    
+    .pad-0
+    {
+        padding: 0px;
+    }
+    .img-box img
+    {
+        height: 250px;
+    }
+
+    
+/*----------------------
+	Camera slide up
+-----------------------*/
+
+
+.camTop{
+	background:url('../img/cam.png') no-repeat center center;
+	width:100%;
+	height:66px;
+	position:absolute;
+	top:0;
+	left:0;
+	cursor:pointer;
+}
+/*
+.settings{
+	background:url('../img/settings.png') no-repeat;
+	cursor: pointer;
+	height: 28px;
+	position: absolute;
+	right: 37px;
+	top: 448px;
+	width: 30px;
+}
+
+.settings:hover{
+	background-position:left bottom;
+}*/
+
+#screen{
+	width:520px;
+	height:370px;
+	margin: 0px auto 2px;
+	background:#ccc;
+	
+	line-height: 360px;
+    text-align: center;
+	color:#666;
+}
+
+.buttonPane{
+	text-align: center;
+        display: inline-block;
+}
+
+
+.blueButton,
+.greenButton{
+	background:url('../img/buttons.png') no-repeat;
+	text-shadow:1px 1px 1px #277c9b;
+	color:#fff !important;
+	width:99px;
+	height:38px;
+	border:none;
+	text-decoration:none;
+	display:inline-block;
+	font-size: 16px;
+	line-height: 32px;
+	text-align: center;
+	margin: 0 4px;
+}
+
+.greenButton{
+	background:url('../img/buttons.png') no-repeat right top;
+	text-shadow:1px 1px 1px #498917;
+}
+
+.blueButton:hover,
+.greenButton:hover{
+	background-position:left bottom;
+	text-decoration:none !important;
+}
+
+.greenButton:hover{
+	background-position:right bottom;
+}
+
+.blueButton:active,
+.greenButton:active{
+	position:relative;
+	bottom:-1px;
+}
+
+.hidden{
+	display:none;
+}
+#menucamera{
+    position: relative;
+    text-align: center
+}
+.aa>li>a {
+    position: relative;
+    display: block;
+    padding: 5px;
+}
+.aa>li{
+    display: inline-block;
+    float: none;
+}
+.aa
+{
+    background: url('../img/cam_bg.jpg') repeat;
+    text-align: center;
+}
+.camera
+{
+    display: inline-block;
+    float: none;
+    text-align: center;
+}
+.tab-content
+{
+    display: inline-block;
+    width: 100%;
+}
+.dz-message .main-msg{
+    
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.dz-message .or-msg{
+    
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+.dz-message .small{
+    font-weight: bold;
+    color: gray;
+}
+.dropzone,.tab-pane
+{
+    height: 400px;
+}
+.dropzone .dz-message
+{
+    position: relative;
+    /*top: 35%;*/
+}
+
+.bodyfacebook,.instbody,.flickrbody
+{
+    text-align: center;
+}
+.fb-title
+{
+    color: #3b5998;
+    font-size: 30px;
+    display: block;
+    text-align:center;
+}
+.insta-title
+{
+    color: #3f729b;
+    font-size: 30px;
+    display: block;
+    text-align:center;
+}
+.flickr-title
+{
+    color: #cc006a;
+    font-size: 30px;
+    display: block;
+    text-align:center;
+}
+.btn-72{
+    height: 72px;
+    width: 72px;
+}
+.btn-continer .btn {
+    margin: 10px 0px;
+}
+.body-desc
+{
+    margin: 15px;
+}
+.body-footer
+{
+    margin: 15px;
+}
+.body-footer span{
+    display: block;
+    font-size: 13px;
+    color: grey;
+    font-weight: bold;
+}
+.body-desc span{
+    font-size: 18px;
+    display: block;
+    margin: 5px ;
+    font-weight: bold;
+}
+.fa-5x
+{
+    font-size: 4em;
+}
+.nav-bar-bottom{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+.fbphotosdiv .box img
+{
+    height: 150px;
+}
+.tabscontainer .dropzone
+{
+    min-height: 150px;
+     border: none;
+    background: white;
+    /* padding: 20px 20px; */
+}
+
+@media screen and (max-width: 600px) {
+   .fa-2x
+   {
+       font-size: 1.5em;
+   }
+   dropzone .dz-message {
+    position: relative;
+    top: 20%;
+}
+}

@@ -1,0 +1,23 @@
+[11-Sep-2015 13:21:45 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/sociallabelsimnw/public_html/lib/base_facebook.php on line 1264
+[11-Sep-2015 16:05:11 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/sociallabelsimnw/public_html/lib/base_facebook.php on line 1264
+[11-Sep-2015 16:05:20 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/sociallabelsimnw/public_html/lib/base_facebook.php on line 1264
+[11-Sep-2015 16:23:55 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/sociallabelsimnw/public_html/lib/base_facebook.php on line 1264
+[11-Sep-2015 16:23:58 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/sociallabelsimnw/public_html/lib/base_facebook.php on line 1264
+[11-Sep-2015 16:24:04 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/sociallabelsimnw/public_html/lib/base_facebook.php on line 1264
+[12-Sep-2015 02:35:00 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/sociallabelsimnw/public_html/lib/base_facebook.php on line 1264
+[12-Sep-2015 02:35:27 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/sociallabelsimnw/public_html/lib/base_facebook.php on line 1264
+[12-Sep-2015 02:35:32 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/sociallabelsimnw/public_html/lib/base_facebook.php on line 1264
+[12-Sep-2015 02:35:42 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/sociallabelsimnw/public_html/lib/base_facebook.php on line 1264
+[13-Sep-2015 09:57:11 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/sociallabelsimnw/public_html/share.php on line 88
+[13-Sep-2015 23:49:11 America/Chicago] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/sociallabelsimnw/public_html/lib/base_facebook.php on line 1264

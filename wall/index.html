@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Social Share Wall</title>
+
+<link type="text/css" rel="stylesheet" href="css/styles.css" />
+
+<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+<link type="text/css" rel="stylesheet" href="css/dpSocialTimeline.css" />
+
+
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.dpSocialTimeline.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		var tag='webdesign';
+                var lim=200;
+		$('#socialTimeline').dpSocialTimeline({
+			feeds: 
+			{
+                        'twitter': {data: 'http://sociallabels.imnwebhosting.com/wall/twitter_oauth/user_timeline.php?screen_name=cnn', limit: lim},
+                        'twitter_hash': {data: 'http://sociallabels.imnwebhosting.com/wall/twitter_oauth/search.php?q=%23'+tag, limit: lim},
+			'flickr': {data: '136022160@N04', limit: lim},
+                         'flickr_hash': {data: tag, limit: lim},
+			'facebook_page': {data: 'http://sociallabels.imnwebhosting.com/wall/facebook_auth/facebook_page.php?page_id=418234554858781', limit: lim},
+                        'instagram': {data: 'http://sociallabels.imnwebhosting.com/wall/instagram_auth/instagram.php?username=dsbhalala99', limit: lim},
+                        'instagram_hash': {data: 'http://sociallabels.imnwebhosting.com/wall/instagram_auth/instagram_hash.php?tag='+tag, limit: lim},
+                        
+			},
+			layoutMode: 'columns',
+			showLayout: false,
+			 showSocialIcons: false,
+			showFilter:false,
+			itemWidth: 280,
+			total: 500,
+			share: true
+			
+		});
+		
+	});
+</script>
+</head>
+<body>
+    <div id="content">
+       
+        
+        <div id="socialTimeline" style="width:100%;"></div>
+    </div>
+</body>
+</html>
